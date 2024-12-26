@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: rgb(206, 206, 220);
     font-family: monospace;
 }
 
@@ -11,10 +10,10 @@ body {
     font-family: monospace;
     line-height: 1.6;
     background-color: #0d1535;
-    padding: 20px;
+    padding: 0px;
     margin-left: 20px;
     border-color: #0e142a;
-    margin-right: 20px;
+    margin-right: 0px;
 }
 
 .resume-container {
@@ -23,11 +22,9 @@ body {
     display: flex;
     max-width: 100%;
     margin: 0 auto;
-    background-color: #131a36;
+    background-color: #0d1535;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
-
-
 
 .left-side {
     width: 47%;
@@ -35,26 +32,80 @@ body {
     overflow: scroll;
     margin-bottom: 20px;
     margin-top: 10px;
+    display:block;
     
 }
 
 .right-side {
     width: 53%;
-    background-color: #131a36;
+    background-color: #0d1535;
     overflow: scroll;
-    margin-bottom: 20px;
-    margin-top: 10px;
-    margin-left: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: rgb(252, 252, 252);
+    
+}
+header h1 {
+    margin-top: 58px;
+    letter-spacing: -1.5px;
+    word-spacing: -10.4px;
+    font-size: 3.4em;
+    color: rgb(252, 252, 252);
+    margin-bottom: 0;
+    
+}
+
+h3 {
+    font-size: 1.4em;
+    color: rgb(252, 252, 252);
+    word-spacing: -5.4px;
+    margin-bottom: 10px;
+}
+
+header p {
+    margin-top: 14px;
+    margin-bottom: 5px;
+    font-size: 1.05em;
+    color: rgb(198, 198, 198);
+}
+
+p span.new-line {
+    display: block;
+}
+
+.navigation {
+    display: flex;
+    margin-top: 65px;
+    font-size: 1.4em;
+}
+  
+.navigation a {
+    color: rgb(252, 252, 252);
+    text-decoration: wavy;
+    transition: color 0.3s ease;
+    
+    
+}
+
+.navigation a:hover {
+    text-decoration: dashed;
+    margin-left: 30px   
+}
+
+.navigation ul li{
+    margin-bottom: 23px;
+
 }
 
 .contact {
     display: flex;
-    gap: 55px;
-    margin-top: 30px;
+    gap: 15px;
+    margin-top: 160px;
+    margin-bottom: 0px;
 }
   
   .contact a {
-    color: #070d10;
+    color: rgb(198, 198, 198);
     text-decoration: none;
     transition: color 0.3s ease;
 }
@@ -64,78 +115,85 @@ body {
 }
 
   .contact i {
-  color: white; 
+  color: rgb(198, 198, 198); 
   margin-right: 8px;
   font-size: 26px;
 }
 
-.skills {
-    margin-top: 100px;
+.right-side section {
+    margin-bottom: 20px;
+    margin-right: 10px;
 }
 
-.skills ul {
-    margin-top: -1px;  /* Remove default margin */
-    padding: 0; /* Remove default padding */
-    margin-bottom: 0;
+.about_me {
+    margin-top: 110px;
 }
 
-.skills ul li {
-    margin-bottom: 5px; /* Add space between list items */
-    font-size: .7em; /* Adjust font size */
-    line-height: 1.7; /* Adjust line spacing for better readability */
+.degrees {
+    text-indent: 10px;
 }
-
-
-
-header h1 {
-    margin-top: 38px;
-    font-size: 3.3em;
-    color: rgb(206, 206, 220);
-    margin-bottom: 0;
-}
-
-header p {
-    margin-top: -8px;
-    margin-bottom: 5px;
-    font-size: .8em;
-    color: rgb(206, 206, 220);
-}
-
 
 h4 {
     color: rgb(206, 206, 220);
 }
 
-ul {
-    list-style-type: none;
-    margin-left: 0;
-    margin-top: 10px;
-    font-size: 0.8em;
-}
-
-li {
-    margin-bottom: 10px;
-}
-
-strong {
-    font-weight: bold;
-}
 
 
 
-.right-side section {
+
+.skills {
+    padding: 20px;
+    border-color: #1b2341;
+    
     margin-bottom: 20px;
-    margin-left: 0px;
+    border-width: 5px;
+    background-color: #1b2341;
+}
+.skills ul {
+    list-style-type: none;
+    margin: 16px 0;
+    
+    margin-bottom: 10px;
+    margin-top: 5px;
+    
 }
 
-.right-side ul li {
-    font-size: 1.1em;
+.education {
+    padding: 10px;
+    border-color: #1b2341;
+    
+    margin-bottom: 20px;
+    border-width: 5px;
+    background-color: #1b2341;
+}
+.education ul li{
+    list-style-type: none;
+    margin: 16px 0;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    
 }
 
-.dates {
-    font-weight: lighter;
-    color: #777;
-    font-size: 0.9em;
+.interests {
+    padding: 10px;
+    border-color: #1b2341;
+    
+    margin-bottom: 20px;
+    border-width: 5px;
+    background-color: #1b2341;
+}
+.interests ul {
+    list-style-type: none;
+    margin: 16px 0;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    
+}
+
+.experience p {
+    margin-bottom: 10px;
+    font-weight: bold;
 }
 
 .job {
@@ -156,17 +214,12 @@ strong {
     
 }
 
-.company {
-    font-size:small;
 
-}
 
-.bio {
-    
-    font-size: .9em;
-}
-.about_me {
-    margin-top: 80px;
+.dates {
+    font-weight: lighter;
+    color: #777;
+    font-size: 0.9em;
 }
 
 .kaiser_project {
@@ -174,46 +227,30 @@ strong {
     text-indent: -20px;
 }
 
-.education ul {
-    margin-top: -1px;  /* Remove default margin */
-    padding: 0; /* Remove default padding */
-    font-size: .7em;
-    margin-bottom: 0px;
+.button-container {
+    padding:20px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    background-color: #1b2341;
+    color: rgb(252, 252, 252);
+    cursor: pointer;
+    display: block;
+    transition: background-color 0.3s ease;
 }
 
-.education ul li {
-    margin-bottom: 5px; /* Add space between list items */
-    line-height: 1.5; /* Adjust line spacing for better readability */
+.button-container p {
+    margin-top: 10px;
+}
+
+.button-container:hover {
+    background-color: #0056b3;
 }
 
 
-.projects ul {
-    margin-top: -1px;  /* Remove default margin */
-    padding: 0; /* Remove default padding */
-    font-size: .7em;
-    margin-bottom: 0px;
-}
-
-.projects ul li {
-    margin-bottom: 5px; /* Add space between list items */
-    line-height: 1.5; /* Adjust line spacing for better readability */
-}
-
-.interests ul {
-    margin-top: -1px;  /* Remove default margin */
-    padding: 0; /* Remove default padding */
-    font-size: .7em;
-    margin-bottom: 0px;
-}
-
-.interests ul li {
-    margin-bottom: 5px; /* Add space between list items */
-    line-height: 1.5; /* Adjust line spacing for better readability */
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     .resume-container {
-        flex-wrap: wrap; /* Allow wrapping */
+        flex-wrap:wrap;
     }
 
     .left-side,
@@ -222,47 +259,6 @@ strong {
     }
 
     .right-side {
-        margin-top: 20px; /* Add spacing between stacked containers */
+        margin-top: 0px; /* Add spacing between stacked containers */
     }
-}
-
-
-.button-container {
-    width: 100%;
-    padding: 20px;
-    border: none;
-    background-color: #1b2341;
-    color: white;
-    text-align: left;
-    cursor: pointer;
-    display: block;
-    transition: background-color 0.3s ease;
-}
-
-.button-container:hover {
-    background-color: #0056b3;
-}
-
-.navigation {
-    display: flex;
-    margin-top: 90px;
-    margin-left:50px;
-    margin-bottom: 180px;
-    font-size: xx-large;
-}
-  
-  .navigation a {
-    color: white;
-    text-decoration: none;
-    transition: color 0.3s ease;
-    
-}
-
-  .navigation a:hover {
-    text-decoration: underline;
-    
-}
-
-.navigation ul li{
-    margin-bottom: 20px;
 }

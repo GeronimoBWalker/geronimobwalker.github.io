@@ -14,22 +14,28 @@
             <header>
                 <h1>Geronimo Walker</h1>
                 <h3>Data Scientist</h3>
+                <p>
+                  <span>I build predictive models, data-driven</span> 
+                  <span class="new-line">visuals with health data.</span>
+                </p>
+              </header>
+
                 
             <section class="navigation">
                 <ul>
                     <li>
                         <a href="#" class="active">
-                            <i class="fas fa-home icon"></i>
+                          <i class="fas fa-mountain icon"></i>
                             About
                         </a>
                     </li>
                     <li><a href="#">
-                            <i class="fas fa-rss icon"></i>
+                            <i class="fas fa-wind icon"></i>
                             Experience
                         </a>
                     </li>
                     <li><a href="#">
-                            <i class="fas fa-address-book icon"></i>
+                            <i class="fas fa-fire icon"></i>
                             Projects
                         </a>
                     </li>
@@ -46,25 +52,24 @@
                     <a href="https://www.linkedin.com/in/geronimowalker" target="_blank" title="LinkedIn">
                       <i class="fab fa-linkedin" ></i>
                     </a>
-                  </div>
-            </header>
-
-
-
-
-            
+                  </div> 
         </div>
 
+<!-- beginning of right side -->
+        <!-- seperated into sections -->
         <div class="right-side">
             <div class="about_me">
+            
+            <section class="bio-paragraph">
                 <p>
                     Master of Information and Data Science alum from UC Berkeley’s 
                     School of Information. Bachelor's in Sociology with a Data Science minor. 
                     Passionate about the intersection of tech and public health.
                 </p>
-            </div>
+            </section>
+            <h3>Skills</h3>
             <section class="skills">
-                <h3>Skills</h3>
+                
                 <ul>
                     <li>
                         Python, Tableau, HTML/CSS,
@@ -74,32 +79,22 @@
                 </ul>
             </section>
             
-            <button class="button-container">
-            <section class="projects">
-                <h2>ML Project</h2>
-                <ul>
-                    <li>
-                        <strong>TerraAi</strong>
-                    </li>
-                    <li>
-                        Integrated a U-Net Transformer model with ArcGIS layers to detect deforestation 
-                        in satellite imagery, allowing the identification of potential illegal cultivations.
-                    </li>
-                </ul>
-            </section>
-            </button>
-
+            
+            <h3>Education</h3>
             <section class="education">
-                <h4>Education</h4>
+                
                 <ul>
                     <li><strong>University of California, Berkeley</strong></li>
-                    <li>Master of Information and Data Science</li>
-                    <li>Bachelor’s, Sociology; Minor, Data Science</li>
+                    <span class="degrees">
+                      <li>Master of Information and Data Science</li>
+                      <li>Bachelor’s, Sociology; Minor, Data Science</li>
+                    </span>
                 </ul>
             </section>
 
+            <h3>Interests</h3>
             <section class="interests">
-                <h4>Interests</h4>
+                
                 <ul>
                     <li>
                         I’m passionate about basketball, both as a player and a way to build 
@@ -111,13 +106,13 @@
                     </li>
                 </ul>
             </section>
-
+          </div>
 
             <div class="experience">
-                <h4>Experience</h4>
+                <h3>Experience</h3>
                 <section>
                     <div class="job">
-                      <h5>Graduate Student Researcher</h5>
+                      <p>Graduate Student Researcher</p>
                       <p class="company">Center for Global Healthy Cities - University of California, Berkeley <span class="dates">May 2023 - Sep 2024</span></p>
                       <ul>
                         <li>Connected to PostgreSQL database using Python and SQL for data extraction and analysis.</li>
@@ -131,7 +126,7 @@
                       </ul>
                     </div>
                     <div class="job">
-                      <h5>Graduate Student Reader</h5>
+                      <p>Graduate Student Reader</p>
                       <p class="company">Sociology Undergraduate Department - University of California, Berkeley <span class="dates">Aug 2022 - Aug 2023</span></p>
                       <ul>
                         <li>Read, analyzed, and provided feedback on research papers.</li>
@@ -142,7 +137,7 @@
                       </ul>
                     </div>
                     <div class="job">
-                      <h5>Contract Financial Analyst</h5>
+                      <p>Contract Financial Analyst</p>
                       <p class="company">The Clinic of Fine Ops <span class="dates">Sep 2022 - May 2023</span></p>
                       <ul>
                         <li>Assisted the Principal Accountant with implementation and financial management activities of private account.</li>
@@ -153,7 +148,7 @@
                       </ul>
                     </div>
                     <div class="job">
-                      <h5>Analytic Consultant Intern</h5>
+                      <p>Analytic Consultant Intern</p>
                       <p class="company">Kaiser Permanente <span class="dates">Jun 2022 - Aug 2022</span></p>
                       <ul>
                       <p class="kaiser_project">Safe Use of Opiods Analysis</p>
@@ -167,7 +162,7 @@
                       </ul>
                     </div>
                     <div class="job">
-                      <h5>Contract Data Analyst</h5>
+                      <p>Contract Data Analyst</p>
                       <p class="company">The Clinic of Fine Ops <span class="dates">Jan 2021 - July 2022</span></p>
                       <ul>
                         <li>Acquired data from employee engagement and demographic surveys.</li>
@@ -178,8 +173,17 @@
                   </section>
                 </div>
 
-            
-
+                <h3>Projects</h3>
+                
+                  <section class="projects">
+                    <button role='link' onclick="location.href='https://storymaps.arcgis.com/stories/89c759a510bf42a7b0f91123a0b139fd'" class="button-container">
+                    <p>TerraAi  <i class="fas fa-external-link-square-alt"></i></p>
+                      <p>
+                        Integrated a U-Net Transformer model with ArcGIS layers to detect deforestation 
+                        in satellite imagery, allowing the identification of potential illegal cultivations.
+                      </p>
+                    </button>
+                  </section>
         </div>
     </div>
 </body>
