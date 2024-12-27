@@ -64,7 +64,9 @@ h3 {
 }
 
 header p {
+    display: flex;
     margin-top: 14px;
+    width: 350px;
     margin-bottom: 5px;
     font-size: 1.05em;
     color: rgb(198, 198, 198);
@@ -274,7 +276,7 @@ h4 {
 }
 
 
-@media screen and (max-width: 890px) {
+@media screen and (max-width: 940px) {
     .resume-container {
         flex-wrap:wrap;
         overflow: auto;
